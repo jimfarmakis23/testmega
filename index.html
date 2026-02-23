@@ -3,37 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Τα Βίντεό μου από το Mega.nz</title>
-    <style>
-        /* Responsive video iframe */
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%; /* Αυτό διατηρεί την αναλογία 16:9 */
-            height: 0;
-            overflow: hidden;
-            max-width: 100%;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <title>Παρακολούθηση Βίντεο από Mega Cloud</title>
 </head>
 <body>
-    <h1>Παρακολούθησε τα Βίντεό μου!</h1>
 
-    <!-- Ενσωμάτωση βίντεο από Mega.nz μέσω Embed Link -->
-    <div class="video-container">
-        <iframe width="2160" height="1440" frameborder="0" 
-                src="https://mega.nz/embed/ywNjyKSR#qw305qpksi8NNlnZ4yZpgnrRTZ4Rbbq9pPlccQHyKkw!1a" 
-                allowfullscreen allow="autoplay;">
-        </iframe>
-    </div>
+<h1>Δείτε το Βίντεό μου από το Mega Cloud</h1>
+
+<!-- Παίξε το βίντεο από Mega -->
+<video controls>
+    <source src="https://mega.nz/file/ywNjyKSR#qw305qpksi8NNlnZ4yZpgnrRTZ4Rbbq9pPlccQHyKkw" type="video/mp4">
+    Το βίντεο δεν υποστηρίζεται από τον browser σας.
+</video>
 
 </body>
 </html>
